@@ -22,7 +22,7 @@ import PropTypes from "prop-types";
  */
 import image from "../images/cyber.png";
 
-const imageAltText = "cybersecurity defense logo";
+const imageAltText = "cybersecurity defense";
 
 const Home = ({ name, title }) => {
   return (
