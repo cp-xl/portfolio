@@ -16,27 +16,27 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/blue-background-light.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "light blue background";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I am a final-year Monash University student pursuing a Bachelor's degree in Information Technology. My passion lies in creating a safer digital space for everyone and leveraging my tech skills for community impact. Throughout my academic journey, my interests have expanded, ranging from cybersecurity to AI.\n\nRecently, I've developed a strong interest in exploring the world of startups, especially with AI, and have been learning from founders about their journeys in turning ideas into reality. I also love attending events that empower women in the tech industry, such as Girls In Tech and Grad Girls. Networking at these events has allowed me to meet many inspiring women and share experiences.\nI'm also a social butterfly in those settings, so if you ever see me around at an MSLA event, come say hi!";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Python",
+  "C++",
+  "Web Development",
+  "Problem solving",
+  "Mobile App Development",
+  "Software Security",
 ];
 
 /**
@@ -45,7 +45,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I am passionate about using my tech skills for positive impact and drive innovation to solve local community problems.";
 
 const About = () => {
   return (
